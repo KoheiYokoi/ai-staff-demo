@@ -4,3 +4,4 @@ pydantic
 langchain-openai
 langchain-community
 faiss-cpu
+langchain
