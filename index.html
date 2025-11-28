@@ -109,7 +109,7 @@
             const loadingId = addMessage('考え中...', 'bot', true);
 
             // 3. APIサーバーへ送信
-            const response = await fetch('http://localhost:8000/chat', {
+            const response = await fetch('https://ai-staff-api.onrender.com/chat', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
